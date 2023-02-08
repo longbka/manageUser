@@ -1,0 +1,41 @@
+.green {
+  border: 1px solid green;
+}
+.red {
+  border: 1px solid red;
+}
+.blue {
+  border: 1px solid blue;
+}
+.login-container {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  .content {
+    .content-left {
+      margin-top: 50px;
+      .img-brand {
+        height: 106px;
+        margin: -28px;
+      }
+    }
+    .content-right {
+      box-sizing: border-box;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      background-color: #fff;
+      .forgot-password {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .btn-login,
+      .btn-register {
+        font-weight: 600;
+      }
+      .btn-login {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
